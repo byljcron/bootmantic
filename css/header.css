@@ -148,7 +148,34 @@
 .navbar a.active {
     background: #000;
 }
+/*如果喜欢没有某个带小bug的位移效果的话从131行到150行修改如下
 
+.navbar .nav li a:hover {
+    color: #fff;
+
+    
+}
+.navbar .nav li a.active:hover {
+    color: #fff;
+
+    background: #111;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 15px 12px;
+    color: #999;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
+.navbar a.active {
+    background: #000;
+}
+.navbar .nav-right a {
+    padding: 0px;
+    padding-top: 5px;
+}
+
+*/
 
 /* 站点标题 */
 
